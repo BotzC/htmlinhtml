@@ -60,9 +60,6 @@
 </body>
 <script type="text/javascript">
     xHttpOP = new XMLHttpRequest()
-    xHttpOP.onload = function(){
-      document.querySelector('.profile').innerHTML = this.responseText;
-    }
     xHttpOP.open('GET','profile.html');
     xHttpOP.send();
 </script>
